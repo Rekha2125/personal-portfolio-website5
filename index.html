@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE= edage">
+    <meta name= "viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Protfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5b8c88f0b1.js" crossorigin="anonymous"></script>
+</head>    
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo3.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX & App Designer</p>
+                <h1>Hi, I'm<span> Portfolio</span><br> from India </h1>
+            </div>
+        </div>
+    </div>
+     <!------------about--------------->
+
+     <div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/me (2).png">
+            </div>
+             <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a passionate and dedicated individual with a strong interest in design ,ui/ux,web development etc.. I enjoy solving problems, learning new skills, and bringing creative ideas to life. My goal is to continuously grow and contribute my abilities to meaningful projects.&I believe that every experience is an opportunity to grow, learn, and connect with others. Curiosity drives me — whether it's exploring new ideas, understanding different perspectives, or developing new skills. I value creativity, empathy, and the simple joy of making meaningful contributions. My journey is not just about achieving goals but about embracing the process, learning from challenges, and always striving to become a better version of myself. Through my work, I hope to inspire, collaborate, and leave a positive mark on those I encounter.
+</p>
+<div class="tab-titles">
+<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+<p class="tab-links" onclick="opentab('Experience')">Experience</p>
+<p class="tab-links" onclick="opentab('Education')">Education</p>
+</div>
+<div class="tab-contents active-tab" id=skills">
+    <ul>
+         <li><span>UI/UX</span><br>Designing web/app interfaces </li>
+         <li><span>Web development</span><br>Web app development</li>
+         <li><span>App development</span><br>Buliding android/ios apps</li>
+    </ul>
+</div>
+<div class="tab-contents" id="Experience">
+    <ul>
+        <li><span> 2025 - Current</span><br> Designing web pages and development </li>
+         <li><span> 2023 - 2024</span><br> Managing like a team lead in software company</li>
+         <li><span> 2022 - 2023</span><br>Internship in online on gov-platform </li>
+    </ul>
+</div>
+<div class="tab-contents" id="Education">
+    <ul>
+        <li><span> 2023</span><br> Training at bangalore </li>
+         <li><span> 2022</span><br> Cse-Ds engineering at visakapatnam </li>
+         <li><span> 2021</span><br> Cse engineering aat visakapatnam</li>
+    </ul>
+</div>
+             </div>
+        </div>
+    </div>
+</div>
+<!--------------services---------------->
+<div id="services">
+    <div class="container">
+  <h1 class="sub-title">My services</h1>
+  <div class="services-list">
+    <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>Web design is the process of creating websites with attractive layouts, colors, and content. It focuses on making websites user-friendly, responsive, and visually appealing.
+</p>
+<a href="#">Learn more</a>
+    </div>
+     <div>
+        <i class="fa-solid fa-crop-simple"></i>
+        <h2>UI/UX Design</h2>
+        <p>UI/UX design focuses on creating user-friendly interfaces and improving user experience. It ensures that websites and apps are easy to use, visually appealing, and meet user needs.
+</p>
+<a href="#">Learn more</a>
+    </div>
+     <div>
+        <i class="fa-brands fa-app-store"></i>
+        <h2>App Design</h2>
+<p>App design involves creating the look and feel of mobile or web applications. It ensures the app is visually appealing, easy to navigate, and provides a smooth user experience.</p>
+<a href="#">Learn more</a>
+    </div>
+  </div>
+    </div>
+</div>
+<!-------------------portfolio---------------->
+<div id="Portfolio">
+    <div class="container">
+         <h1 class="sub-title">My Work</h1>
+         <div class="work-list">
+            <div class="work">
+                <img src="images/work5.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>A social media app connects people worldwide, enabling instant sharing of thoughts, photos, and experiences. Download it now from the Play Store and join the community.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.png">
+                 <div class="layer">
+                    <h3> spotify App</h3>
+                    <p>Spotify lets you stream millions of songs and podcasts anytime, anywhere. Download it now from the Play Store and enjoy unlimited music.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.png">
+                 <div class="layer">
+                    <h3>Flipkart App</h3>
+                    <p>Flipkart brings you a wide range of products at great prices, right at your fingertips. Download it now from the Play Store and start shopping anytime, anywhere.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+         </div>
+         <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-----------------contact---------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left"> 
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                     <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                       <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/sample_cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="Email"placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2025 [Your Name]. This work is protected like a rare gem.<i class="fa-solid fa-heart"></i> handle with respect.</p>
+    </div>
+</div>
+<script>
+
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+          for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+     function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbw_8hKe-wu8U3uU4fuSJoa264UFpD5CZJVIVaBN83sv7wHCG1ZLNhJaJwXUjj4iJGSE/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
